@@ -8,11 +8,11 @@ extends Area2D
 
 func _ready():
 	lifetime_timer.wait_time = lifetime
+	lifetime_timer.start()
 
 func _process(delta):
 	var movement = Vector2.UP.rotated(rotation) * speed
 	position += movement
 
 func _on_lifetime_timeout():
-	print("bullet over!")
 	queue_free()

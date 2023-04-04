@@ -9,6 +9,8 @@ var rotation_dir: int
 @export var rotation_speed: float = 3.5
 @export var friction_weight: float = 3
 
+@onready var weapon: Weapon = $"Weapon" as Weapon
+
 func _process(delta):
 	Handle_Inputs()
 	Rotation()
@@ -24,6 +26,8 @@ func Handle_Inputs():
 		rotation_dir += -1
 	if Input.is_action_pressed("turn_right"):
 		rotation_dir += 1
+	if Input.is_action_pressed("fire"):
+		Fire()
 	
 func Movement(delta):
 	velocity += Vector2(0.0, input_vector * acceleration * delta).rotated(rotation)
@@ -34,3 +38,6 @@ func Movement(delta):
 
 func Rotation():
 	rotate(deg_to_rad(rotation_dir * rotation_speed))
+
+func Fire() -> void:
+	weapon.Shoot(rotation)

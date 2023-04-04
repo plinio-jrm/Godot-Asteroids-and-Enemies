@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bpskhlhn1wlj7" path="res://textures/Base Temp Enemy.png" id="2_5f7f4"]
 
 [node name="BaseEnemy" type="RigidBody2D"]
+collision_layer = 8
+collision_mask = 7
 gravity_scale = 0.0
 script = ExtResource("1_mtc45")
 
