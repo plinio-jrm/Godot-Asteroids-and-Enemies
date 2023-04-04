@@ -1,4 +1,4 @@
-class_name Player_V2
+class_name Player
 extends CharacterBody2D
 
 var input_vector: float
@@ -23,7 +23,7 @@ func Handle_Inputs():
 	if Input.is_action_pressed("turn_left"):
 		rotation_dir += -1
 	if Input.is_action_pressed("turn_right"):
-		rotation_dir += 1	
+		rotation_dir += 1
 	
 func Movement(delta):
 	velocity += Vector2(0.0, input_vector * acceleration * delta).rotated(rotation)

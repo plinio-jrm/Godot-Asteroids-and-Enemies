@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy7nwy5mayclj"]
+
+[ext_resource type="Script" path="res://scripts/base enemy.gd" id="1_mtc45"]
+[ext_resource type="Texture2D" uid="uid://bpskhlhn1wlj7" path="res://textures/Base Temp Enemy.png" id="2_5f7f4"]
+
+[node name="BaseEnemy" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource("1_mtc45")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0.717647, 0, 1)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_5f7f4")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(0.5, 0.5)
+polygon = PackedVector2Array(0, -96, 72, 49, 31, 73, -32, 73, -72, 49)
