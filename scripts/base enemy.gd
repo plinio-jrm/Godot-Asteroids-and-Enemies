@@ -1,5 +1,4 @@
 class_name BaseEnemy
-
 extends RigidBody2D
 
 @export var movement_speed: int
@@ -7,6 +6,7 @@ extends RigidBody2D
 
 var target: Transform2D
 @onready var player: Player = get_node("../Player") as Player
+@onready var health: Health = $"Health" as Health
 
 func _physics_process(delta):
 	Rotate(delta)
@@ -27,3 +27,6 @@ func angle_of() -> float:
 	var x = player.global_position.x - global_position.x
 	var y = player.global_position.y - global_position.y
 	return rad_to_deg(atan2(y, x))
+
+func _on_health_on_die():
+	queue_free()

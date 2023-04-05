@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cy7nwy5mayclj"]
+[gd_scene load_steps=4 format=3 uid="uid://cy7nwy5mayclj"]
 
 [ext_resource type="Script" path="res://scripts/base enemy.gd" id="1_mtc45"]
 [ext_resource type="Texture2D" uid="uid://bpskhlhn1wlj7" path="res://textures/Base Temp Enemy.png" id="2_5f7f4"]
+[ext_resource type="Script" path="res://scripts/essentials/Health.gd" id="3_1vqsu"]
 
 [node name="BaseEnemy" type="RigidBody2D"]
 collision_layer = 8
@@ -17,3 +18,9 @@ texture = ExtResource("2_5f7f4")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 scale = Vector2(0.5, 0.5)
 polygon = PackedVector2Array(0, -96, 72, 49, 31, 73, -32, 73, -72, 49)
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_1vqsu")
+health = 2
+
+[connection signal="on_die" from="Health" to="." method="_on_health_on_die"]
