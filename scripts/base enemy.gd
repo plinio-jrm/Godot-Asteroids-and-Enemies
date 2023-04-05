@@ -28,5 +28,8 @@ func angle_of() -> float:
 	var y = player.global_position.y - global_position.y
 	return rad_to_deg(atan2(y, x))
 
-func _on_health_on_die():
+func _on_health_on_die_after_fade():
 	queue_free()
+
+func _on_health_on_die_before_fade():
+	pass

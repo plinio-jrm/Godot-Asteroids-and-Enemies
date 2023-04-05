@@ -57,4 +57,8 @@ fixed_fps = 50
 position = Vector2(798, 242)
 rotate_speed = 50
 
-[node name="Bullets" type="Node" parent="."]
+[node name="Holders" type="Node" parent="."]
+
+[node name="Bullet" type="Node" parent="Holders"]
+
+[node name="Enemy" type="Node" parent="Holders"]

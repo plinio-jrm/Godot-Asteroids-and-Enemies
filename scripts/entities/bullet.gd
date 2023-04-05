@@ -21,3 +21,4 @@ func _on_lifetime_timeout():
 func _on_body_entered(body):
 	if body.health != null:
 		(body.health as Health).Damage(damage)
+		queue_free()

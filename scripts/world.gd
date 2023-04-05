@@ -1,7 +1,8 @@
 class_name World
 extends Node
 
-@onready var bullets_holder = $"Bullets"
+@onready var bullets_holder = $"Holders/Bullet"
+@onready var enemies_holder = $"Holders/Enemy"
 @onready var player: Player = $"Player" as Player
 
 func _ready():
