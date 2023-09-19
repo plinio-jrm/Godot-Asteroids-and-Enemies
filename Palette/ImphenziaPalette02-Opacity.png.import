@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gkm5if4miqln"
-path="res://.godot/imported/Main Ship.png-ca30b70637ec7b9919ac20d8ad951f3e.ctex"
+uid="uid://dbfw7b41rhvaj"
+path="res://.godot/imported/ImphenziaPalette02-Opacity.png-f18eecaddcc982d870749f4a04f7d135.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/Main Ship.png"
-dest_files=["res://.godot/imported/Main Ship.png-ca30b70637ec7b9919ac20d8ad951f3e.ctex"]
+source_file="res://Palette/ImphenziaPalette02-Opacity.png"
+dest_files=["res://.godot/imported/ImphenziaPalette02-Opacity.png-f18eecaddcc982d870749f4a04f7d135.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xbxp336byjge"
-path="res://.godot/imported/Bullet.svg-43a3aca6c1361ea59d467b0c9b65a79e.ctex"
+uid="uid://c40wyav4gev28"
+path="res://.godot/imported/ImphenziaPalette01-256.png-5bdfe8100a6d77370ac89671c62c497d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://svgs/Bullet.svg"
-dest_files=["res://.godot/imported/Bullet.svg-43a3aca6c1361ea59d467b0c9b65a79e.ctex"]
+source_file="res://Palette/ImphenziaPalette01-256.png"
+dest_files=["res://.godot/imported/ImphenziaPalette01-256.png-5bdfe8100a6d77370ac89671c62c497d.ctex"]
 
 [params]
 
@@ -32,6 +32,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=0.1
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

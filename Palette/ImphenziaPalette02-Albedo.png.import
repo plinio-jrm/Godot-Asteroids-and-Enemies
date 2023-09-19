@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ru0cx123dr3o"
-path="res://.godot/imported/Enemy1.png-e053fd5e6d32ec049b29707f6a4605ba.ctex"
+uid="uid://dwc551exlaefx"
+path="res://.godot/imported/ImphenziaPalette02-Albedo.png-40c71ce9278eddc30494bc698d6e25d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/Enemy1.png"
-dest_files=["res://.godot/imported/Enemy1.png-e053fd5e6d32ec049b29707f6a4605ba.ctex"]
+source_file="res://Palette/ImphenziaPalette02-Albedo.png"
+dest_files=["res://.godot/imported/ImphenziaPalette02-Albedo.png-40c71ce9278eddc30494bc698d6e25d2.ctex"]
 
 [params]
 

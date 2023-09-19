@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpskhlhn1wlj7"
-path="res://.godot/imported/Base Temp Enemy.png-b37ae635e4047aacf78ed56ba432bb18.ctex"
+uid="uid://b855hnq0v4483"
+path="res://.godot/imported/ImphenziaPalette02-Emission.png-5ee5d7e7d9a87ade68559a2d884bc15a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/Base Temp Enemy.png"
-dest_files=["res://.godot/imported/Base Temp Enemy.png-b37ae635e4047aacf78ed56ba432bb18.ctex"]
+source_file="res://Palette/ImphenziaPalette02-Emission.png"
+dest_files=["res://.godot/imported/ImphenziaPalette02-Emission.png-5ee5d7e7d9a87ade68559a2d884bc15a.ctex"]
 
 [params]
 
